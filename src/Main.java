@@ -32,8 +32,36 @@ System.out.println("Задача 1");
         short o = 27897;
         System.out.println("Значение переменной h с типом short равно " + o);
 
+        System.out.println("Задача 3");
+        byte classLP = 23;
+        byte classAS = 27;
+        byte classEA = 30;
+        short totalList = 480;
+        int listOneStudent = totalList / (classLP + classAS + classEA);
+        System.out.println("На каждого ученика рассчитано " + listOneStudent + " листов бумаги");
 
+        System.out.println("Задача 4");
+        byte performance = 16;
+        byte time = 2;
+        int performanceOneMinute = performance / time;
+        int performance20Min = performanceOneMinute * 20;
+        System.out.println("За 20 минут машина произвела бутылок " + performance20Min + " штук");
+        int perfomanceDay = performanceOneMinute * 60 * 24;
+        System.out.println("За сутки машина произвела бутылок " + perfomanceDay + " штук");
+        int perfomanceThreeDays = perfomanceDay * 3;
+        System.out.println("За 3 суток машина произвела бутылок " + perfomanceThreeDays + " штук");
+        int perfomanceMonth = perfomanceDay * 30;
+        System.out.println("За месяц машина произвела бутылок " + perfomanceMonth + " штук");
 
+        System.out.println("Задача 5");
+        byte totalCans = 120;
+        byte whiteDyeOneClass = 2;
+        byte brownDyeOneClass = 4;
+        int totalClass = totalCans / (whiteDyeOneClass + brownDyeOneClass);
+        int totalWhiteDye = totalClass * whiteDyeOneClass;
+        int totalBrownDye = totalClass * brownDyeOneClass;
+        System.out.println("В школе, где " + totalClass + " классов, нужно " + totalWhiteDye + " банок белой краски и " + totalBrownDye + " банок коричневой краски");
 
+        System.out.println("Задача 6");
     }
 }
