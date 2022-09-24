@@ -63,5 +63,40 @@ System.out.println("Задача 1");
         System.out.println("В школе, где " + totalClass + " классов, нужно " + totalWhiteDye + " банок белой краски и " + totalBrownDye + " банок коричневой краски");
 
         System.out.println("Задача 6");
+        byte banana = 80;
+        byte milk = 105;
+        byte iceCream = 100;
+        byte egg = 70;
+        int totalCoctel = banana * 5 + milk * 2 + iceCream * 2 + egg * 4;
+        System.out.println("Вес спорт-коктеля " + totalCoctel + " граммов");
+        float totalCoctelKg = totalCoctel / 1000f;
+        System.out.println("Вес спорт-коктеля " + totalCoctelKg + " кг");
+
+        System.out.println("Задача 7");
+        byte totalMinusWeight = 7;
+        short minusGrOneDay = 250;
+        short minusGrOneDay2 = 500;
+        int totalDays1 = totalMinusWeight * 1000 / minusGrOneDay;
+        System.out.println("Eсли спортсмен будет терять каждый день по 250 грамм, то ему понадобится " + totalDays1 + " дней");
+        int totalDays2 = totalMinusWeight * 1000 / minusGrOneDay2;
+        System.out.println("Eсли спортсмен будет терять каждый день по 500 грамм, то ему понадобится " + totalDays2 + " дней");
+        int mean = ( totalMinusWeight * 1000 )/ ((minusGrOneDay + minusGrOneDay2)/2);
+        System.out.println("В среднем спортсмену может понадобится " + mean + " для достижения результата");
+
+        System.out.println("Задача 8");
+        int mageMasha = 67760;
+        int mageDenis = 83690;
+        int mageKristina = 76230;
+        double newMageMasha = mageMasha + mageMasha * 0.1;
+        double newMageDenis = mageDenis + mageDenis * 0.1;
+        double newMageKristina = mageKristina + mageKristina * 0.1;
+        double differenceMageMashaYear = newMageMasha * 12 - mageMasha * 12;
+        double differenceMageDenuisYear = newMageDenis * 12 - mageDenis * 12;
+        double differenceMageKristinaYear = newMageKristina * 12 - mageKristina * 12;
+        System.out.println("Маша теперь получает " + newMageMasha + " рублей. Годовой доход вырос на " + differenceMageMashaYear + " рублей");
+        System.out.println("Денис теперь получает " + newMageDenis + " рублей. Годовой доход вырос на " + differenceMageDenuisYear + " рублей");
+        System.out.println("Кристина теперь получает " + newMageKristina + " рублей. Годовой доход вырос на " + differenceMageKristinaYear + " рублей");
+
+
     }
 }
